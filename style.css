@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 251px;
+    gap: 10px;
+    width: 1430px;
+    height: 59px;
+    background-color: #0C4B35;
+}
+
+.navbar-menu {
+    margin-left: -300px;
+}
+
+.navbar-menu li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffff;
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar-menu li a {
+    display: inline-block;
+
+
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.email {
+    margin-bottom: -6.5px;
+    width: 25px;
+    height: 25px;
+}
+
+.call {
+    margin-bottom: -6.5px;
+    width: 25px;
+    height: 25px;
+}
+
+.location {
+    margin-bottom: -6.5px;
+    width: 25px;
+    height: 25px;
+}
