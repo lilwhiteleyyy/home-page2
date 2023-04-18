@@ -11,17 +11,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: -8px;
-    margin-top: -10px;
-    padding: 10px, 251px, 10px, 251px;
-    gap: 10px;
-    width: 1440px;
+    margin-left: -10px;
+    width: 1920px;
     height: 59px;
+    gap: 10px;
     background-color: #0C4B35;
 }
 
+
+
 .navbar-menu {
-    margin-left: -300px;
+    margin-left: -665px;
 
 }
 
@@ -73,7 +73,7 @@ li {
     display: flex;
     position: absolute;
     margin-top: 35px;
-    margin-left: 790px;
+    margin-left: 850px;
     color: #ffff;
 
 }
@@ -89,7 +89,7 @@ li {
 
 
 header {
-    width: 1440px;
+    width: 1920px;
     height: 85px;
     top: 59px;
     margin-left: -8px;
@@ -101,26 +101,27 @@ header {
 
 .plants-logo {
     vertical-align: middle;
-    margin-left: -120px;
+    margin-left: -10px;
     margin-top: 10px;
 }
 
 .icon-leaf {
     position: absolute;
-    top: 66px;
-    left: 225px;
+    top: 75px;
+    left: 335px;
 
     width: 30px;
     height: 30px;
 }
 
 .call-logo {
+    font-size: 2em;
     vertical-align: top;
     width: 125px;
     height: 40px;
-    margin-left: 940px;
+    margin-left: 1400px;
     margin-top: -50px;
-    gap: 10px;
+
     border-radius: 5px;
 }
 
@@ -129,7 +130,7 @@ header {
 .navbar2 ul {
     padding: 0;
     margin-top: -25px;
-    margin-left: 80px;
+    margin-left: 360px;
     display: flex;
 
 }
@@ -139,7 +140,7 @@ header {
     margin: 0 5px;
     padding: 0 15px 0 0;
     font-weight: bold;
-    padding-left: 36px;
+    padding-left: 60px;
 }
 
 
@@ -160,5 +161,5 @@ header {
 }
 
 .company li {
-    color: #0C4B35;
+    color: #00730C;
 }
