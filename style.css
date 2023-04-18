@@ -6,24 +6,27 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 17px 251px;
+    margin-left: -8px;
+    margin-top: -10px;
+    padding: 10px, 251px, 10px, 251px;
     gap: 10px;
-    width: 1430px;
+    width: 1440px;
     height: 59px;
     background-color: #0C4B35;
 }
 
 .navbar-menu {
     margin-left: -300px;
+
 }
 
 .navbar-menu li {
-    font-style: normal;
+    margin-bottom: 10px;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
@@ -60,4 +63,102 @@ body {
     margin-bottom: -6.5px;
     width: 25px;
     height: 25px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.dropdown-sort {
+    display: flex;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 790px;
+    color: #ffff;
+
+}
+
+.icon-arrow {
+    display: block;
+    width: 35px;
+    height: 25px;
+
+}
+
+
+
+
+header {
+    width: 1440px;
+    height: 85px;
+    top: 59px;
+    margin-left: -8px;
+    padding: 15px 256px 15px 256px;
+    gap: 10px;
+    background-color: #ffff;
+
+}
+
+.plants-logo {
+    vertical-align: middle;
+    margin-left: -120px;
+    margin-top: 10px;
+}
+
+.icon-leaf {
+    position: absolute;
+    top: 66px;
+    left: 225px;
+
+    width: 30px;
+    height: 30px;
+}
+
+.call-logo {
+    vertical-align: top;
+    width: 125px;
+    height: 40px;
+    margin-left: 940px;
+    margin-top: -50px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+
+
+.navbar2 ul {
+    padding: 0;
+    margin-top: -25px;
+    margin-left: 80px;
+    display: flex;
+
+}
+
+
+.navbar2 ul li {
+    margin: 0 5px;
+    padding: 0 15px 0 0;
+    font-weight: bold;
+    padding-left: 36px;
+}
+
+
+
+.icon-arrow-black {
+    width: 13px;
+    height: 13px;
+    object-fit: cover;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+
+
+}
+
+.navbar2 ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.company li {
+    color: #0C4B35;
 }
