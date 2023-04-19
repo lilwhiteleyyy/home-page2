@@ -6,6 +6,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@media (max-width: 1200px) {
+    * {
+        box-sizing: border-box;
+    }
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -93,26 +99,19 @@ header {
     height: 85px;
     top: 59px;
     margin-left: -8px;
-    padding: 15px 256px 15px 256px;
+    padding: 15px 256px;
     gap: 10px;
     background-color: #ffff;
 
 }
 
 .plants-logo {
-    vertical-align: middle;
+    vertical-align: top;
     margin-left: -10px;
-    margin-top: 10px;
+    margin-top: -83px;
 }
 
-.icon-leaf {
-    position: absolute;
-    top: 75px;
-    left: 335px;
 
-    width: 30px;
-    height: 30px;
-}
 
 .call-logo {
     font-size: 2em;
@@ -120,7 +119,7 @@ header {
     width: 125px;
     height: 40px;
     margin-left: 1400px;
-    margin-top: -50px;
+    margin-top: -53px;
 
     border-radius: 5px;
 }
@@ -129,7 +128,7 @@ header {
 
 .navbar2 ul {
     padding: 0;
-    margin-top: -25px;
+    margin: 20px;
     margin-left: 360px;
     display: flex;
 
