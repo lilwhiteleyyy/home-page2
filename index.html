@@ -9,52 +9,403 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
 
-    <nav>
-        <div class="container">
-            <a href="" class="navbar-email"></a>
 
-            <div class="navbar-wrap">
-                <ul class="navbar-menu">
-                    <li><a href="#"><img src="images/email.svg" alt="" class="email"></a> Email:
-                        Plantingservice@7oroof.com</li>
-                    <li><a href=""> <img src="images/phone-call.svg" alt="" class="call"></a> +01 123456789</li>
-                    <li><a href="#"><img src="images/location.svg" alt="" class="location"></a> 2072 Pinnickkinick
-                        Street, WA 98370</li>
-                </ul>
-                <!-- navbar-menu -->
-                <div class="dropdown-sort">
-                    <div class="sort-language">English</div>
-                    <img src="images/icon-arrow-white.png" alt="" class="icon-arrow">
+    <header class="header">
+        <div class="sup-header">
+            <div class="container">
+                <div class="row">
+                    <div class="contacts">
+                        <div class="email">
+                            <img src="images/email.svg" alt="email" />
+                            <div class="contacts-text">
+                                Email: Plantingservice@7oroof.com
+                            </div>
+                        </div>
+                        <div class="number">
+                            <img src="images/phone-call.svg" alt="number" />
+                            <div class="contacts-text">+01 123456789</div>
+                        </div>
+                        <div class="adress">
+                            <img src="images/location.svg" alt="adress" />
+                            <div class="contacts-text">
+                                2072 Pinnickinick Street, WA 98370
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages">
+                        <div class="english">
+                            <div>English</div>
+                            <img class="img-down" src="images/icon-arrow-white.png" alt="down" />
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- container -->
-    </nav>
-    <!-- navbar -->
-    <header>
+        </div>
+        <div class="sub-header">
+            <div class="container">
+                <div class="row">
+                    <div class="sub-header-menu">
+                        <div class="logo">
+                            <img src="images/plants.svg" alt="logo" />
+                        </div>
+                        <div class="main-menu">
+                            <ul class="menu">
+                                <li class="menu-position">
+                                    <a href="">Home</a>
+                                    <img class="down-black" src="images/arrow-down-black.svg" alt="down-black" />
+                                </li>
+                                <li class="menu-position">
+                                    <a href="">Company</a>
+                                    <img class="down-black" src="images/arrow-down-green.svg" alt="down-black" />
+                                </li>
+                                <li class="menu-position">
+                                    <a href="">Services</a>
+                                    <img class="down-black" src="images/arrow-down-black.svg" alt="down-black" />
+                                </li>
+                                <li class="menu-position">
+                                    <a href="">Project</a>
+                                    <img class="down-black" src="images/arrow-down-black.svg" alt="down-black" />
+                                </li>
+                                <li class="menu-position">
+                                    <a href="">Blog</a>
+                                    <img class="down-black" src="images/arrow-down-black.svg" alt="down-black" />
+                                </li>
+                                <li class="menu-position">
+                                    <a href="">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-bottom-navbar-btn">
+                        <button class="btn btn-call-us">
+                            <span class="icon-phone"></span>
+                            Call Us
+                    </div>
+                    </button>
+                    <div class="mobile-btn-call-us">
+                        <button class="btn-mobile-call">
+                            <img src="images/call-us.svg" alt="call-us" />
+                        </button>
+                        <img class="img-menu-mobile" src="images/images-mobile/Menu_1_.svg" alt="menu-mobile" />
+                    </div>
 
-        <nav class="navbar2">
-
-
-            <ul class="navbar2-menu">
-
-                <li><a href="#">Home</a><img src="images/icon-arrow-black.png" alt="" class="icon-arrow-black"></li>
-                <li><a href="#"><span style="color: #00730C;">Company</span></a><img src="images/icon-arrow-black.png"
-                        alt="" class="icon-arrow-black"></li>
-                <li><a href="#">Services</a><img src="images/icon-arrow-black.png" alt="" class="icon-arrow-black"></li>
-                <li><a href="#">Project</a><img src="images/icon-arrow-black.png" alt="" class="icon-arrow-black"></li>
-                <li><a href="#">Blog</a><img src="images/icon-arrow-black.png" alt="" class="icon-arrow-black"></li>
-                <li><a href="#">Contact</a></li>
-
-            </ul>
-            <img src="images/call us.svg" alt="Logo" class="call-logo">
-            <img src="images/plants.svg" alt="Logo" class="plants-logo">
-        </nav>
+                </div>
+            </div>
+        </div>
     </header>
+    <main class="main">
+        <div class="hero">
+            <div class="description-hero">
+                <img class="hero-photo-left" src="images/flower-hero.svg" alt="hero-photo-left" />
+                <div class="text-hero">
+                    <div class="pre-text">
+                        <img class="list-logo" src="images/leaf.svg" alt="list" />
+                        <p>Landscape Planting Services</p>
+                    </div>
+                    <div class="hero-caption-text">
+                        Perfect Landscape <span class="green-color">Solution.</span>
+                    </div>
+                    <div class="hero-description-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                        tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </div>
+                    <div class="buttons">
+                        <button class="btn-quate"><a href="">Get A Quate</a></button>
+                        <div class="see-it-works">
+                            <p>See how it works</p>
+                            <img class="img-right" src="images/arrow-right-grey.svg" alt="right" />
+                        </div>
+                    </div>
+                    <div class="circles">
+                        <div class="circle500">
+                            <img class="circle-img" src="images/circle500.svg" alt="circle500" />
+                            <div class="circle-text">Happy Customrs</div>
+                        </div>
+                        <div class="circle800">
+                            <img class="circle-img" src="images/circle800.svg" alt="circle800" />
+                            <div class="circle-text">
+                                Garden Created
+                            </div>
+                        </div>
+                        <div class="circle100">
+                            <img class="circle-img" src="images/circle100.svg" alt="circle100" />
+                            <div class="circle-text">Team Members</div>
+                        </div>
+                    </div>
+                </div>
+                <img class="hero-photo-right" src="images/flowers-hero-right.svg" alt="hero-photo-right" />
+            </div>
+        </div>
+    </main>
+    <div class="container">
+        <div class="services-caption-text">
+            Services We <span class="green-color-provide">Provide</span>
+        </div>
+        <div class="services-desc-text">
+            <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                of
+                type
+                and scrambled it to make a type specimen book.</h4>
+        </div>
+
+    </div>
+    <div class="container-cards">
+        <div class="card-green">
+            <img src="images/leaf-services-white.svg" alt="leaf" class="leaf-services-white">
+            <img src="images/service-pics1.svg" alt="pics1" class="service-pics">
+            <div class="card-text-white">Tree Planting</div>
+            <p class="card-desc-text-white">Lorem Ipsum is simply dummy
+                text of the printing and type
+                setting industry.</p>
+        </div>
+        <div class="card">
+            <img src="images/leaf-services-brown.svg" alt="leaf" class="leaf-services-brown">
+            <img src="images/service-pics2.svg" alt="pics2" class="service-pics">
+            <div class="card-text-black">Grass Cutting</div>
+            <p class="card-desc-text-black">Lorem Ipsum is simply dummy
+                text of the printing and type
+                setting industry.</p>
+        </div>
+        <div class="card">
+            <img src="images/leaf-services-brown.svg" alt="leaf" class="leaf-services-brown">
+            <img src="images/service-pics3.svg" alt="pics3" class="service-pics">
+            <div class="card-text-black">Garden Design</div>
+            <p class="card-desc-text-black">Lorem Ipsum is simply dummy
+                text of the printing and type
+                setting industry.</p>
+        </div>
+        <div class="card">
+            <img src="images/leaf-services-brown.svg" alt="leaf" class="leaf-services-brown">
+            <img src="images/service-pics4.svg" alt="pics4" class="service-pics">
+            <div class="card-text-black">Plant Growing</div>
+            <p class="card-desc-text-black">Lorem Ipsum is simply dummy
+                text of the printing and type
+                setting industry.</p>
+        </div>
+        <div class="card">
+            <img src="images/leaf-services-brown.svg" alt="leaf" class="leaf-services-brown">
+            <img src="images/service-pics5.svg" alt="pics5" class="service-pics">
+            <div class="card-text-black">Flower Scaping</div>
+            <p class="card-desc-text-black">Lorem Ipsum is simply dummy
+                text of the printing and type
+                setting industry.</p>
+        </div>
+        <div class="card">
+            <img src="images/leaf-services-brown.svg" alt="leaf" class="leaf-services-brown">
+            <img src="images/service-pics6.svg" alt="pics6" class="service-pics">
+            <div class="card-text-black">Branch Cutting</div>
+            <p class="card-desc-text-black">Lorem Ipsum is simply dummy
+                text of the printing and type
+                setting industry.</p>
+        </div>
+        <div class="card">
+            <img src="images/leaf-services-brown.svg" alt="leaf" class="leaf-services-brown">
+            <img src="images/service-pics7.svg" alt="pics7" class="service-pics">
+            <div class="card-text-black">Pests, Weeds Control</div>
+            <p class="card-desc-text-black">Lorem Ipsum is simply dummy
+                text of the printing and type
+                setting industry.</p>
+        </div>
+        <div class="card">
+            <img src="images/leaf-services-brown.svg" alt="leaf" class="leaf-services-brown">
+            <img src="images/service-pics8.svg" alt="pics8" class="service-pics">
+            <div class="card-text-black">Watering & Irrigation</div>
+            <p class="card-desc-text-black">Lorem Ipsum is simply dummy
+                text of the printing and type
+                setting industry.</p>
+        </div>
+    </div>
+    <div class="container-about-us">
+        <div class="content-aboutUs">
+            <div class="green-text-aboutUs">
+                25+ Years Of Experience <p class="in-text-us">in</p><span class="black-text-aboutUs"> Gadening &
+                    Landscaping</span>
+            </div>
+            <div class="aboutUs-desc-text">
+                <p> <span class="upper">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it make a type specimen
+                        book.</span><span class="lower">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it make a type specimen book.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled.</span>
+                </p>
+            </div>
+            <div class="icon-boxes">
+                <div class="icon-box">
+                    <img src="images/icon1-aboutUs.svg" alt="Icon 1">
+                    <div class="icon-text">Our Mission</div>
+                </div>
+                <div class="icon-box">
+                    <img src="images/icon2-aboutUs.svg" alt="Icon 2">
+                    <div class="icon-text">Our Vision</div>
+                </div>
+                <div class="icon-box">
+                    <img src="images/icon3-aboutUs.svg" alt="Icon 3">
+                    <div class="icon-text">Support Team</div>
+                </div>
+                <div class="icon-box">
+                    <img src="images/icon4-aboutUs.svg" alt="Icon 4">
+                    <div class="icon-text">Clients Trust</div>
+                </div>
+            </div>
+            <button class="btn-aboutUs">
+                <a href="">Discover More</a>
+            </button>
+            <div class="rectangle-images">
+                <img src="images/flower-aboutUs1.svg" alt="img-aboutUs" class="img-aboutUs1">
+                <img src="images/flower-aboutUs2.svg" alt="img-aboutUs" class="img-aboutUs2">
+            </div>
+        </div>
+    </div>
+    <div class="container-chooseUs">
+        <div class="content-chooseUs">
+            <div class="general-chooseText">
+                <span class="general-chooseText-white">Why Choose Us</span>
+
+            </div>
+            <div class="desc-chooseText">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book.</p>
+            </div>
+        </div>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="option1">
+                <span class="checkmark"></span>
+                <span class="label-text">Propare Take Care</span>
+            </label>
+            <label>
+                <input type="checkbox" name="option2">
+                <span class="checkmark"></span>
+                <span class="label-text">Expert Farmer</span>
+            </label>
+            <label>
+                <input type="checkbox" name="option3">
+                <span class="checkmark"></span>
+                <span class="label-text">Clean Working</span>
+            </label>
+            <label class="checkbox-4">
+                <input type="checkbox" name="option4">
+                <span class="checkmark"></span>
+                <span class="label-text">Home Gardening</span>
+            </label>
+            <button class="btn-chooseUs">
+                <a href="">Discover More</a>
+            </button>
+        </div>
+
+        <div class="main-imgChooseUs">
+            <div class="img-girl-withScissors">
+                <img src="images/img-chooseUs.svg" alt="img-chooseUs">
+            </div>
+        </div>
+    </div>
+    <div class="main-third-page">
+        <div class="container">
+            <div class="main-third-content">
+                <div class="main-second-headingParagraph">
+                    <div class="main-second-heading">
+                        Working <span class="main-second-heading-green">Process</span>
+                    </div>
+                    <p class="main-second-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div class="main-second-cards">
+                    <div class="card-third-page">
+                        <div class="card-icons">
+                            <span class="card-icon-bgPlant2"></span>
+                            <span class="card-icon-consultation"></span>
+                        </div>
+                        <div class="card-number">1</div>
+                        <div class="card-third-pageText">
+                            <div class="card-third-pageHeading">Consultation</div>
+                            <p class="card-third-pageParagraph">Lorem Ipsum is simply dummy of the printing and
+                                typesetting test
+                                industry. Lorem Ipsum has been
+                                the industry's standard.</p>
+                        </div>
+                    </div>
+                    <div class="card-third-page">
+                        <div class="card-icons">
+                            <span class="card-icon-bgPlant2"></span>
+                            <span class="card-icon-design-and-work "></span>
+                        </div>
+                        <div class="card-number">2</div>
+                        <div class="card-third-pageText">
+                            <div class="card-third-pageHeading">Design & Work</div>
+                            <p class="card-third-pageParagraph">Lorem Ipsum is simply dummy of the printing and
+                                typesetting test
+                                industry. Lorem Ipsum has been
+                                the industry's standard.</p>
+                        </div>
+                    </div>
+                    <div class="card-third-page">
+                        <div class="card-icons">
+                            <span class="card-icon-bgPlant2"></span>
+                            <span class="card-icon-maintenance"></span>
+                        </div>
+                        <div class="card-number">3</div>
+                        <div class="card-third-pageText">
+                            <div class="card-third-pageHeading">Maintenance</div>
+                            <p class="card-third-pageParagraph">Lorem Ipsum is simply dummy of the printing and
+                                typesetting test
+                                industry. Lorem Ipsum has been
+                                the industry's standard.</p>
+                        </div>
+                    </div>
+                    <div class="card-third-page">
+                        <div class="card-icons">
+                            <span class="card-icon-bgPlant2"></span>
+                            <span class="card-icon-complete"></span>
+                        </div>
+                        <div class="card-number">4</div>
+                        <div class="card-third-pageText">
+                            <div class="card-third-pageHeading">Complete</div>
+                            <p class="card-third-pageParagraph">Lorem Ipsum is simply dummy of the printing and
+                                typesetting test
+                                industry. Lorem Ipsum has been
+                                the industry's standard.</p>
+                        </div>
+                    </div>
+                    <div class="main-thirdPage-imgTextButton">
+                        <div class="main-third-img">
+                            <img src="images/plant-inThe-ground.svg" alt="plant-inThe-ground">
+                        </div>
+                        <div class="main-third-textButton">
+                            <div class="main-third-textOnImg">Our Best Reliable Gardening
+                                and Lawn services
+                            </div>
+                            <div class="main-third-btn">
+                                <button class="btn btn-call-us">
+                                    <span class="icon-phone"></span>
+                                    Call Us
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <footer class="footer">footer</footer> -->
 </body>
 
 </html>
