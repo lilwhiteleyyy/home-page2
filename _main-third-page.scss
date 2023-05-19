@@ -1,0 +1,75 @@
+.slick-prev,
+.slick-next {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #00730C;
+    border: 1px solid #00730C;
+    border-radius: 5px;
+    // padding: 10px 13px;
+    background-position: center;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #00730C;
+    border-radius: 5px;
+    // padding: 10px 13px;
+    background-position: center;
+}
+
+.slick-prev:focus {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #00730C;
+    border-radius: 5px;
+    // padding: 10px 13px;
+    background-position: center;
+    @include icon ("images/icon-slider-arrow-prev-green.svg", 50px, 50px, 1265px, -76px);
+}
+
+.slick-next:focus {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #00730C;
+    border-radius: 5px;
+    // padding: 10px 13px;
+    background-position: center;
+    @include icon-arrow ("images/icon-slider-arrow-next-green.svg", 50px, 50px, 15px, -76px);
+}
+
+.slick-prev {
+    @include icon ("images/icon-slider-arrow-prev-white.svg", 50px, 50px, 1265px, -76px);
+}
+
+.slick-next {
+    @include icon-arrow ("images/icon-slider-arrow-next-white.svg", 50px, 50px, 15px, -76px);
+}
+
+.slick-prev:hover {
+    @include icon ("images/icon-slider-arrow-prev-green.svg", 50px, 50px, 1265px, -76px);
+}
+
+.slick-next:hover {
+    @include icon-arrow ("images/icon-slider-arrow-next-green.svg", 50px, 50px, 15px, -76px);
+}
+
+.slick-next:after {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #00730C;
+    border-radius: 5px;
+    // padding: 10px 13px;
+    background-position: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+}
