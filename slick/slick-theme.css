@@ -16,6 +16,7 @@
 .slick-prev,
 .slick-next {
   position: absolute;
+  background-color: green;
   display: block;
   height: 20px;
   width: 20px;
